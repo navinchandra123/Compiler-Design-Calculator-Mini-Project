@@ -19,11 +19,16 @@ application we implement the type of operation given below
 If you don't have them, please install flex and bison by using apt-get(for Ubuntu/Debian) or from GnuWin Packages(For windows users)
 
 ### Compile
->lex calc.l
+>lex calculator.l
 
->yacc calc.y
+![1](https://user-images.githubusercontent.com/44003571/105079766-e2779400-5ab5-11eb-9497-1b3c6ccfee2b.png)
 
->gcc lex.yy.c y.tab.c -o calc
+>yacc -dy calculator.y
+
+>gcc lex.yy.c y.tab.c -o calculator.exe
+
+# How to use it
+
 
 
 
