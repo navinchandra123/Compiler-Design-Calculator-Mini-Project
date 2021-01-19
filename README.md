@@ -21,11 +21,11 @@ If you don't have them, please install flex and bison by using apt-get(for Ubunt
 ### Compile
 >lex calculator.l
 
-![1](https://user-images.githubusercontent.com/44003571/105079766-e2779400-5ab5-11eb-9497-1b3c6ccfee2b.png)
-
 >yacc -dy calculator.y
 
 >gcc lex.yy.c y.tab.c -o calculator.exe
+![1](https://user-images.githubusercontent.com/44003571/105080771-4fd7f480-5ab7-11eb-8d9b-b848210155da.png)
+
 
 # How to use it
 
