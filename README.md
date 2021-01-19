@@ -1,6 +1,20 @@
 # MINI PROJECT OF COMPILER DESIGN "CALCULATOR" USING FLEX , YACC AND C LANGUAGE  
 
 We have created a calculator (Mini project of compiler design).
-In this application If we write any valid expression of mathematics then it give us the final answer 
-of the expression.
-In this application we use flex , yacc and C as progamming language.
+In this application if we write a valid math expression it gives us the final answer.Usually in this 
+application we implement the type of operation given below
+
+1. Addition 
+2. Subtraction
+3. Multiplication 
+4. Division
+5. Modulo
+6. Power 
+
+# How to compile it
+### Prerequisities
+- lex (Flex)
+- yacc (Bison)
+If you don't have them, please install flex and bison by using apt-get(for Ubuntu/Debian) or yum(For CentOS/Fedora).
+
+
