@@ -20,7 +20,10 @@ If you don't have them, please install flex and bison by using apt-get(for Ubunt
 
 ### Compile
 >lex calc.l
+
 >yacc calc.y
+
 >gcc lex.yy.c y.tab.c -o calc
+
 
 
